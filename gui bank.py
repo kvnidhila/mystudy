@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.configure(background='orange')
+root.geometry("1600x500")
+f=Frame(root)
+f.pack()
+bg_image = PhotoImage(file ="12.jpg.gif")
+x = Label(image = bg_image)
+x.place(y=-400)
+root.mainloop()
